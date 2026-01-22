@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aka1128's Portfolio</title>
+    
+    <link rel="icon" href="Image/HeadLogo.png">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="PP.css">
+</head>
+<body>
+
+    <div class="intro-section" id="introSection">
+        <div class="intro-overlay"></div>
+        <div class="intro-content">
+            <h1 class="intro-title">Aka's Portfolio</h1>
+            <p class="intro-subtitle">
+                Virtual Creator<br>
+                <span class="sub-text">Motion Capture, Motion CleanUp, Camera Sequencing</span>
+            </p>
+        </div>
+        <div class="scroll-down-btn" onclick="enterSite()">
+            <i class="fas fa-chevron-down"></i>
+            <span>Enter Site</span>
+        </div>
+    </div>
+
+    <header class="top-bar transparent" id="topBar">
+        <div class="menu-btn" onclick="toggleSidebar()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="logo" onclick="resetToIntro()" style="cursor: pointer;">Aka's Portfolio</div>
+    </header>
+
+    <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-title">Categories</div>
+        <ul class="menu-list">
+            <li><div class="menu-link active" onclick="filterView('all', this)"><i class="fas fa-th-large"></i> All Projects</div></li>
+            <li><div class="menu-link" onclick="filterView('MotionCapture', this)"><i class="fas fa-laptop"></i> MotionCapture</div></li>
+            <li><div class="menu-link" onclick="filterView('MotionCleanUp', this)"><i class="fas fa-bezier-curve"></i> Motion CleanUp</div></li>
+            <li><div class="menu-link" onclick="filterView('Camera', this)"><i class="fas fa-camera"></i> Camera</div></li>
+            <li><div class="menu-link" onclick="filterView('Etc', this)"><i class="fas fa-folder-open"></i> Etc</div></li>
+        </ul>
+        <div class="sidebar-title" style="margin-top: 40px;">Contact</div>
+        <ul class="menu-list">
+            <li><a href="mailto:acku165@gmail.com" class="menu-link"><i class="far fa-envelope"></i> Email</a></li>
+            <li><a href="https://github.com/aka1128" target="_blank" class="menu-link"><i class="fab fa-github"></i> GitHub</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-container" id="mainContent">
+
+        <section class="profile-header">
+            <div class="info-grid">
+                <div class="info-item"><strong>Email</strong> acku165@gmail.com</div>
+                <div class="info-item"><strong>Discord</strong> a_ka1128</div>
+                <div class="info-item"><strong>Category</strong> 
+                    <span class="tag blue">Motion Capture</span> 
+                    <span class="tag green">Motion CleanUp</span>
+                    <span class="tag orange">Camera</span>
+                    <span class="tag purple">Etc</span>
+                </div>
+            </div>
+            <div class="profile-layout">
+                <div class="callout">
+                    <div class="callout-icon">📍</div>
+                    <div class="callout-content">
+                        <strong>안녕하세요 모션캡쳐 / 모션 클린업 / 카메라 디렉팅, 오퍼레이팅 등 다양한 작업 하고있는 아카입니다. </strong><br>
+                        <span style="color: var(--gray-text);">추가로 c#, c++ 등 개발과 컨텐츠 기획에 관심이 많습니다.</span>
+                    </div>
+                </div>
+                <div class="profile-img-container">
+                    <img src="Image/Profile.png" alt="Profile Image">
+                </div>
+            </div>
+        </section>
+
+        <div class="sections-wrapper">
+
+            <section id="sec-MotionCapture" class="category-section">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fas fa-laptop" style="color:#2563eb;"></i> Motion Capture</h2>
+                    <div class="view-all-link mode-all" onclick="triggerMenuClick('MotionCapture')">View Full List →</div>
+                    <div class="view-all-link mode-single" onclick="triggerMenuClick('all')">← Back to All</div>
+                </div>
+                <div class="gallery-grid" id="grid-MotionCapture"></div>
+            </section>
+
+            <section id="sec-MotionCleanUp" class="category-section">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fas fa-bezier-curve" style="color:#16a34a;"></i> Motion CleanUp</h2>
+                    <div class="view-all-link mode-all" onclick="triggerMenuClick('MotionCleanUp')">View Full List →</div>
+                    <div class="view-all-link mode-single" onclick="triggerMenuClick('all')">← Back to All</div>
+                </div>
+                <div class="gallery-grid" id="grid-MotionCleanUp"></div>
+            </section>
+
+            <section id="sec-Camera" class="category-section">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fas fa-camera" style="color:#ea7508;"></i> Camera</h2>
+                    <div class="view-all-link mode-all" onclick="triggerMenuClick('Camera')">View Full List →</div>
+                    <div class="view-all-link mode-single" onclick="triggerMenuClick('all')">← Back to All</div>
+                </div>
+                <div class="gallery-grid" id="grid-Camera"></div>
+            </section>
+
+            <section id="sec-Etc" class="category-section">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fas fa-folder-open" style="color:#c462f1;"></i> Etc</h2>
+                    <div class="view-all-link mode-all" onclick="triggerMenuClick('Etc')">View Full List →</div>
+                    <div class="view-all-link mode-single" onclick="triggerMenuClick('all')">← Back to All</div>
+                </div>
+                <div class="gallery-grid" id="grid-Etc"></div>
+            </section>
+
+        </div> 
+    </main>
+
+    <div class="modal-overlay" id="projectModal" onclick="closeModal()">
+        <div class="modal-container" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+            <div class="modal-content">
+                <div class="modal-image">
+                    <img id="modalImg" src="" alt="Project Image">
+                </div>
+                <div class="modal-text">
+                    <div class="modal-header-row">
+                        <div class="modal-tags" id="modalTags"></div>
+                        <div class="modal-date" id="modalDate"></div>
+                    </div>
+                    
+                    <h2 id="modalTitle">Project Title</h2>
+                    <p id="modalDesc" class="modal-desc-main"></p>
+                    
+                    <div id="modalLinks" class="modal-links-area"></div>
+
+                    <hr>
+                    
+                    <p id="modalInfo" class="modal-info-detail"></p>
+                    <div id="modalLink"></div>
+
+                    <div class="credit-section">
+                        <button class="credit-toggle-btn" onclick="toggleCredits()">
+                            <span>Credits</span>
+                            <i class="fas fa-chevron-down" id="creditIcon"></i>
+                        </button>
+                        <div class="credit-content" id="creditContent">
+                            <ul id="creditList"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="DATA.js"></script>
+    <script src="PP.js"></script>
+    
+</body>
+</html>
