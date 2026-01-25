@@ -2071,7 +2071,7 @@ const projectData = [
         id: "etc-September",
         title: "September",
         desc: "9월 생일 고멤 커버곡",
-        image: "Image/Etc/September.png",
+        image: "Image/ETC/September.png",
         tags: ["Camera", "Assistant Director"],
         categories: ["Camera", "Etc"],
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=cdhyLEtekVM" }],
@@ -2119,4 +2119,5 @@ const projectData = [
         ],
         detail: {info: "9월에 생일 고멤인 도파민 박사님, 비즈니스킴님, 티파니님, 비밀소녀님, 해루석님, 풍신님의 커버곡 September의 카메라 및 연출 보조를 담당했습니다.", video: "https://www.youtube.com/watch?v=cdhyLEtekVM"}
     },
+
 ];
