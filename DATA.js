@@ -19,13 +19,13 @@ const projectData = [
         date: "Release : 2024.06.30",
         links: [{ text: "YouTube", url: "https://youtu.be/a7jOKHbC4Z8?si=PpIwbaFCiEY4Aq_Y" }],
         credits: [
-            { role: "Artist", name: "소피아 / 단답벌레" },
+            { role: "Artist", name: "소피아 단답벌레" },
             { role: "Project Manager", name: "소피아" },
             { role: "Director", name: "시추노" },
 
             { header: "MUSIC & SOUND" },
-            { role: "Composition", name: "maromaro / 진승민" },
-            { role: "Lyrics", name: "maromaro / 진승민" },
+            { role: "Composition", name: "maromaro 진승민" },
+            { role: "Lyrics", name: "maromaro 진승민" },
             { role: "Arrangement", name: "maromaro" },
             { role: "Guitar", name: "JuNN" },
             { role: "Bass", name: "maromaro" },
@@ -34,14 +34,14 @@ const projectData = [
             { role: "Mixing & Mastering", name: "maromaro" },
 
             { header: "3D ART" },
-            { role: "Map Producer", name: "메르보 / 돝돝 / 시추노" },
+            { role: "Map Producer", name: "메르보 돝돝 시추노" },
             { role: "3D Modeller", name: "돝돝" },
-            { role: "Avatar Producer", name: "유사 / 소금" },
-            { role: "Avatar Modeling", name: "유사 / 소금" },
+            { role: "Avatar Producer", name: "유사 소금" },
+            { role: "Avatar Modeling", name: "유사 소금" },
 
             { header: "VIDEO" },
             { role: "Unity Cinemachine", name: "시추노" },
-            { role: "Motion Capture Management", name: "석키너 / 아카" },
+            { role: "Motion Capture Management", name: "석키너 아카" },
             { role: "Motion Capture Actor", name: "시추노" },
             { role: "Motion Clean up", name: "시추노" },
             { role: "Edit", name: "시추노" },
@@ -85,7 +85,7 @@ const projectData = [
 
             { header: "Motion Capture & Animation" },
             { role: "Choreography Director", name: "오꾼도꾼" },
-            { role: "Motion Capture Actor", name: "do.A / Han ga won / KEMI / SOSEOL / 김로큐 / 오꾼도꾼 / 호발" },
+            { role: "Motion Capture Actor", name: "do.A Han ga won KEMI SOSEOL 김로큐 오꾼도꾼 호발" },
             { role: "Motion Capture Operator", name: "고라파니 석키너 아카" },
             { role: "Motion Clean-up", name: "ipro 아즈사 아카 유월 이셰이 해마울" },
             { role: "3D Keyframe Animation", name: "뭘그리보세요" },
@@ -2149,3 +2149,4 @@ const projectData = [
         detail: {info: "9월에 생일 고멤인 도파민 박사님, 비즈니스킴님, 티파니님, 비밀소녀님, 해루석님, 풍신님의 커버곡 September의 카메라 및 연출 보조를 담당했습니다.", video: "https://www.youtube.com/watch?v=cdhyLEtekVM"}
     },
 ];
+
