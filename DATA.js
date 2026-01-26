@@ -123,7 +123,7 @@ const projectData = [
         image: "Image/MotionCapture/EverPurple.png",
         tags: ["Motion Capture Operator", "Motion CleanUp", "Camera"],
         categories: ["MotionCapture", "MotionCleanUp", "Camera"],
-        date: "2024.01.20",
+        date: "Release : 2024.05.11",
         links: [{ text: "YouTube", url: "https://www.youtube.com/live/SGEW27FetxI?si=exhJzZ_sb4LzYCkl&t=5160" }],
         credits: [
             { role: "Artistic Director", name: "아이네 INE (이세계아이돌)" },
@@ -252,7 +252,7 @@ const projectData = [
         image: "Image/MotionCapture/gogyomemlive.jpg",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
-        date: "2023.12.25",
+        date: "Release : 2025.12.21",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=aGYLiuosCeM" }],
         credits: [
             { role: "Artist", name: "닌닌, 데스해머쵸로키, 독고혜지, 비밀소녀, 빅토리, 성기사 샬롯, 시리안레인, 티파니" },
@@ -322,6 +322,7 @@ const projectData = [
         image: "Image/MotionCapture/Unbreakable.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.10.08",
         links: [{ text: "YouTube", url: "https://youtu.be/wfaFs8TW2rg?si=5-tHYbVgVNu4WRV1" }],
         credits: [
             { role: "Vocal & Appearance", name: "재닌, 라벤, 개냥이, 햇비, 김챠멜, 르니, 온우쥬, 캬앙, 코코야, 이라, 유키라, 타루, 김병살, 문모모, 뽀린걸, 에넨, 류버들, 딸기슈몽이, 해리, 찌미, 봄세이, 데스해머 쵸로키, 빈스" },
@@ -386,6 +387,7 @@ const projectData = [
         image: "Image/MotionCapture/Waktavoice.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2025.01.11",
         links: [{ text: "YouTube", url: "https://www.youtube.com/live/dCaExZ0RkS0?si=5p5fPXrISvy8yVvt&t=4392" }],
         credits: [
             // [1] 메인 프로덕션 & 아트
@@ -481,6 +483,7 @@ const projectData = [
         image: "Image/MotionCapture/Wnader.jpg",
         tags: ["Motion Capture Operator", "Cinemachine"],
         categories: ["MotionCapture", "Camera"],
+        date: "Release : 2024.03.15",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=c74agkeKGlc" }],
         credits: [
             { role: "Composition", name: "킹섭" },
@@ -535,6 +538,7 @@ const projectData = [
         image: "Image/MotionCapture/WantYou.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.08.13",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=CDW42O4PBkg" }],
         credits: [
             { role: "Composer", name: "겅지양" },
@@ -611,6 +615,7 @@ const projectData = [
         image: "Image/MotionCapture/Frame.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.07.21",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=j9Wzf5_b1PU" }],
         credits: [
             { role: "Producer", name: "곽춘식" },
@@ -673,6 +678,7 @@ const projectData = [
         image: "Image/MotionCapture/Mictest.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.07.21",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=5XiGE7qjWw8" }],
         credits: [
             { role: "Artist", name: "도파민 박사" },
@@ -737,6 +743,7 @@ const projectData = [
         image: "Image/MotionCapture/BlackFlower.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.05.22",
         links: [{ text: "YouTube", url: "https://youtu.be/WycX_3W3agM?si=hHxFgKs5yih_9BIg" }],
         credits: [
             { role: "Artist", name: "닌닌, 사랑전도사 젠투" },
@@ -796,6 +803,7 @@ const projectData = [
         image: "Image/MotionCapture/ski.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.09.08",
         links: [{ text: "YouTube", url: "https://youtu.be/wRkyVZZUJwE?si=bNzxALkA55BxVwJn" }],
         credits: [
             { role: "Vocal", name: "게비융신세킹" },
@@ -854,6 +862,7 @@ const projectData = [
         image: "Image/MotionCapture/shellwe.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.05.18",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=_A7kGGRrj4U" }],
         credits: [
             { role: "Vocal", name: "풍신" },
@@ -903,6 +912,7 @@ const projectData = [
         image: "Image/MotionCapture/manchanga.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.04.18",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=qQXYuvHq8z8" }],
         credits: [
             { role: "Vocal", name: "wangggumteuli" },
@@ -930,6 +940,7 @@ const projectData = [
         image: "Image/MotionCapture/butterfly.png",
         tags: ["Motion Capture Operator", "Motion Capture Actor"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.04.18",
         links: [{ text: "YouTube", url: "" }],
         credits: [
             { role: "Vocal", name: "채은채" },
@@ -957,6 +968,7 @@ const projectData = [
         image: "Image/MotionCapture/sitllwithyou.png",
         tags: ["Motion Capture Operator"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.08.24",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=-7DHVqDC-g0" }],
         credits: [
             { role: "Director", name: "두칠" },
@@ -994,6 +1006,7 @@ const projectData = [
         image: "Image/MotionCapture/CiderBang.png",
         tags: ["Motion Capture Actor"],
         categories: ["MotionCapture"],
+        date: "Release : 2024.06.30",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=IhIDFiYWMbc" }],
         credits: [
             { role: "Artist", name: "빅토리, 데스해머쵸로키 (RYKY)" },
@@ -1067,6 +1080,7 @@ const projectData = [
         image: "Image/MotionCleanUp/BackLight.png",
         tags: ["Motion CleanUp"],
         categories: ["MotionCleanUp"],
+        date: "Release : 2024.08.03",
         links: [{ text: "YouTube", url: "https://www.youtube.com/live/1LjrzgungBs?si=fjpQSH6uEoK5Q-NK&t=4942" }],
         credits: [
             { header: "Artist" },
@@ -1191,6 +1205,7 @@ const projectData = [
         image: "Image/MotionCapture/gogyomem.jpg",
         tags: ["Motion CleanUp"],
         categories: ["MotionCleanUp"],
+        date: "Release : 2025.12.21",
         links: [{ text: "Christmas Tree", url: "https://www.youtube.com/watch?v=LYx9ub_76nw" }, { text: "Merry Merry Christmas", url: "https://www.youtube.com/watch?v=poY6wwL9X2c" }],
         credits: [
             { role: "Artist", name: "닌닌, 데스해머쵸로키, 독고혜지, 비밀소녀, 빅토리, 성기사 샬롯, 시리안레인, 티파니" },
@@ -1260,6 +1275,7 @@ const projectData = [
         image: "Image/MotionCleanUp/2024Wakmuaward.png",
         tags: ["Motion CleanUp"],
         categories: ["MotionCleanUp"],
+        date: "Release : 2025.01.16",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=fJiRofpQ_B8" }],
         credits: [
             { header: "1 Team - Opening | 함께 (Together)" },
@@ -1401,6 +1417,7 @@ const projectData = [
         image: "Image/MotionCleanUp/Drama.png",
         tags: ["Motion CleanUp"],
         categories: ["MotionCleanUp"],
+        date: "Release : 2024.10.12",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=I3UgoySXCx8" }],
         credits: [
             { role: "Director", name: "뱅큐" },
@@ -1469,6 +1486,7 @@ const projectData = [
         image: "Image/MotionCleanUp/TIM.png",
         tags: ["Motion CleanUp"],
         categories: ["MotionCleanUp"],
+        date: "Release : 2024.02.13",
         links: [{ text: "YouTube", url: "https://youtu.be/snShuOcl4Ok?si=ZTotv7vFdDXe5pMY&t=16653" }],
         credits: [
             { role: "Director", name: "Moris" },
@@ -1519,6 +1537,7 @@ const projectData = [
         image: "Image/MotionCleanUp/SadLove.png",
         tags: ["Motion CleanUp"],
         categories: ["MotionCleanUp"],
+        date: "Release : 2023.09.17",
         links: [{ text: "YouTube", url: "https://youtu.be/nR8snxgj8Mk?si=xXDNGkctJYBIDLoP" }],
         credits: [
             { role: "Director", name: "섄디한" },
@@ -1560,6 +1579,7 @@ const projectData = [
         image: "Image/MotionCleanUp/Canndy.png",
         tags: ["Motion CleanUp","Camera"],
         categories: ["MotionCleanUp","Camera"],
+        date: "Release : 2023.08.14",
         links: [{ text: "Performance Video", url: "https://www.youtube.com/watch?v=fHQvJOujyH4" }, { text: "Music Vedio", url: "https://youtu.be/NgplY_IsQn4?si=6euRH7IKkfZcipS6" }], 
         credits: [
             { role: "Artist", name: "주폭소년단 (채루미, 흰젓가락, 윤대대, 설권, 앙수, 오이쿤)" },
@@ -1629,6 +1649,7 @@ const projectData = [
         image: "Image/MotionCleanUp/NightDancer.png",
         tags: ["Motion CleanUp","Cinemachine"],
         categories: ["MotionCleanUp","Camera"],
+        date: "Release : 2023.05.27",
         links: [{ text: "YouTube", url: "https://youtu.be/8DDsgpBXFhY?si=a7a49i1U3Uc-bLLm" }],
         credits: [
             { role: "Vocal", name: "권민" },
@@ -1676,6 +1697,7 @@ const projectData = [
         image: "Image/MotionCleanUp/Everything.png",
         tags: ["Motion CleanUp"],
         categories: ["MotionCleanUp"],
+        date: "Release : 2024.04.07",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=-CDAA7r2aIs" }],
         credits: [
             { role: "Vocal", name: "권민, 뢴트게늄, 소피아, 호드, 비즈니스킴, 히키킹" },
@@ -1721,13 +1743,14 @@ const projectData = [
         ],
         detail: { info: "권민 뢴트게늄 소피아 호드 비즈니스킴 히키킹 총 6인으로 이루어진 육광천의 오리지널곡 Everything에서 일부 모션을 클린업 하였습니다.", video: "https://www.youtube.com/watch?v=-CDAA7r2aIs" }
     },
-    {//****리뷰고멤 영상이라 복구되면 가장 급하게 변경해야함****
+    {//****리뷰고멤 영상이라 복구되면 변경해야함****
         id: "mc-GoodDay",
         title: "좋은 날",
         desc: "빅토리 커버곡",
         image: "Image/MotionCleanUp/Goodday.png",
         tags: ["Motion CleanUp","Camera"],
         categories: ["MotionCleanUp","Camera"],
+        date: "Release : 2024.04.26",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=MViuQCanJ1E" }],
         credits: [
             { role: "Artist", name: "빅토리" },
@@ -1798,6 +1821,7 @@ const projectData = [
         image: "Image/MotionCleanUp/kiddingChallenge.png",
         tags: ["Motion CleanUp","Cinemachine","Etc"],
         categories: ["MotionCleanUp","Camera","Etc"],
+        date: "Release : 2023.09.22",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=pJwr2eoApZU" }],
         credits: [
             { header: "Motion Capture" },
@@ -1820,6 +1844,7 @@ const projectData = [
         image: "Image/MotionCleanUp/HeyjiDream.png",
         tags: ["Motion CleanUp"],
         categories: ["MotionCleanUp"],
+        date: "Release : 2023.11.15",
         links: [{ text: "YouTube", url: "" }],
         credits: [
             { role: "Cast", name: "독고혜지, 니즈, 9호, 족마신 , 권민" },
@@ -1854,6 +1879,7 @@ const projectData = [
         image: "Image/Camera/Happy.png",
         tags: ["Camera", "Director", "Edit", "Motion Capture Actor"],
         categories: ["MotionCapture", "Camera", "Etc"],
+        date: "Release : 2024.04.23",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=ayTqidb0wOI" }],
         credits: [
             { role: "Artist", name: "소피아" },
@@ -1906,6 +1932,7 @@ const projectData = [
         image: "Image/Camera/2023Wakmuaward.png",
         tags: ["Camera", "Motion CleanUp"],
         categories: ["MotionCleanUp", "Camera"],
+        date: "Release : 2024.01.05",
         links: [{ text: "YouTube", url: "https://youtu.be/u6-CBYyaxs0?si=-9WUTxRulFkD3c49&t=2419" }],
         credits: [
             { role: "Cast", name: "우왁굳, 곽춘식, 권민, 김치만두번영택사스가, 노스페라투 호드, 단답벌레, 도파민 박사, 뢴트게늄, 비즈니스킴, 소피아, 왁파고, 카르나르 융터르, 풍신, 해루석, 징버거, 릴파, 남도형, CLTH" },
@@ -2032,6 +2059,7 @@ const projectData = [
         image: "Image/ETC/Chungchun.png",
         tags: ["MotionCleanUp", "Cinemachine", "Director"],
         categories: ["MotionCleanUp", "Camera", "Etc"], 
+        date: "Release : 2025.08.29",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=bSAO2QHF09o" }],
         credits: [
             { header: "Directing & Artist" },
@@ -2071,9 +2099,10 @@ const projectData = [
         id: "etc-September",
         title: "September",
         desc: "9월 생일 고멤 커버곡",
-        image: "Image/ETC/September.png",
+        image: "Image/Etc/September.png",
         tags: ["Camera", "Assistant Director"],
         categories: ["Camera", "Etc"],
+        date: "Release : 2023.09.11",
         links: [{ text: "YouTube", url: "https://www.youtube.com/watch?v=cdhyLEtekVM" }],
         credits: [
             { role: "Director", name: "비밀소녀" },
@@ -2119,5 +2148,4 @@ const projectData = [
         ],
         detail: {info: "9월에 생일 고멤인 도파민 박사님, 비즈니스킴님, 티파니님, 비밀소녀님, 해루석님, 풍신님의 커버곡 September의 카메라 및 연출 보조를 담당했습니다.", video: "https://www.youtube.com/watch?v=cdhyLEtekVM"}
     },
-
 ];
